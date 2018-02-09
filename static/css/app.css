@@ -255,11 +255,11 @@ img {
 
 .post-content {
     margin-left: 180px;
-    font-size: 1.1em;
+    font-size: 1em;
     line-height: 1.2;
     font-weight: 200;
     font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #222;
+    color: grey;
 }
 .post-title {
     font-weight: bold;
@@ -277,7 +277,7 @@ img {
  overflow: hidden;
  position: relative;
 }
-.example1 h3 {
+.example1 p {
  font-size: 1em;
  color: #8B0000;
  position: absolute;
