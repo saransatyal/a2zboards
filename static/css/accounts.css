@@ -1,0 +1,35 @@
+<<<<<<< HEAD
+body {
+  background-image: url(../img/shattered.png);
+}
+
+.logo {
+  font-family: 'Peralta', cursive;
+}
+
+.logo a {
+  color: rgba(0,0,0,.9);
+}
+
+.logo a:hover,
+.logo a:active {
+  text-decoration: none;
+}
+=======
+body {
+  background-image: url(../img/shattered.png);
+}
+
+.logo {
+  font-family: 'Peralta', cursive;
+}
+
+.logo a {
+  color: rgba(0,0,0,.9);
+}
+
+.logo a:hover,
+.logo a:active {
+  text-decoration: none;
+}
+>>>>>>> ea8157f5fe416b7ff7a68d320b4d7199a64f2ff7
