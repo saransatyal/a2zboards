@@ -185,3 +185,134 @@ form.example::after {
 
 }
 */
+
+
+
+.column, .columns {
+
+    float: left;
+    box-sizing: border-box;}
+    ::before, ::after {
+
+        box-sizing: border-box;
+    }
+.post .card {
+    padding-bottom: 20px;
+
+}
+.card {
+    background-color: #fff;
+   box-sizing: border-box;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.05);
+    margin-bottom: 4rem;
+
+}
+.post .post-author.card {
+    padding: 30px;}
+
+.post .post-author .author-picture {
+    width: 120px;
+    clear:left;
+    float: left;}
+.post .post-author .author-picture img {
+  display: block
+  height: 100px;
+  width: 100px;
+}
+img {
+    border: 0;
+    box-sizing: border-box;
+}
+.post .post-author .author-info {
+    margin-left: 150px;
+    box-sizing: border-box;
+    float:left;
+    margin-right:8px;}
+
+.post .post-author p.bio {
+    color: #999;
+    font-size: 1.6rem;
+}
+
+
+.post-container {
+    margin: 20px 20px 0 0;
+    overflow: auto;
+}
+.post-thumb {
+    float: left;
+}
+.post-thumb img {
+    display: block
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.author-info
+{
+  margin-left: 150px;
+  margin-right:5px;}
+
+.post-content {
+    margin-left: 180px;
+    font-size: 1.1em;
+    line-height: 1.2;
+    font-weight: 200;
+    font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #222;
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 9px;
+    background: #ccc
+}
+
+
+
+
+
+.example1 {
+ height: 50px;
+ overflow: hidden;
+ position: relative;
+}
+.example1 h3 {
+ font-size: 1em;
+ color: #8B0000;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ margin: 0;
+ line-height: 50px;
+ text-align: center;
+ /* Starting position */
+ -moz-transform:translateX(100%);
+ -webkit-transform:translateX(100%);
+ transform:translateX(100%);
+ /* Apply animation to this element */
+ -moz-animation: example1 15s linear infinite;
+ -webkit-animation: example1 15s linear infinite;
+ animation: example1 15s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes example1 {
+ 0%   { -moz-transform: translateX(100%); }
+ 100% { -moz-transform: translateX(-100%); }
+}
+@-webkit-keyframes example1 {
+ 0%   { -webkit-transform: translateX(100%); }
+ 100% { -webkit-transform: translateX(-100%); }
+}
+@keyframes example1 {
+ 0%   {
+ -moz-transform: translateX(100%); /* Firefox bug fix */
+ -webkit-transform: translateX(100%); /* Firefox bug fix */
+ transform: translateX(100%);
+ }
+ 100% {
+ -moz-transform: translateX(-100%); /* Firefox bug fix */
+ -webkit-transform: translateX(-100%); /* Firefox bug fix */
+ transform: translateX(-100%);
+ }
+}

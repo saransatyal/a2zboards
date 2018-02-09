@@ -10,6 +10,9 @@ from django.urls import reverse
 from .forms import NewTopicForm, PostForm
 from .models import Board, Post, Topic
 
+def author(request):
+    return render(request, 'author.html')
+
 
 class BoardListView(ListView):
     model = Board
