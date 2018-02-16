@@ -13,6 +13,8 @@ from .models import Board, Post, Topic
 def author(request):
     return render(request, 'author.html')
 
+def mytemplates(request):
+    return render(request, 'mytemplates.html')
 
 class BoardListView(ListView):
     model = Board
