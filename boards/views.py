@@ -13,8 +13,8 @@ from .models import Board, Post, Topic
 def author(request):
     return render(request, 'author.html')
 
-def mytemplates(request):
-    return render(request, 'mytemplates.html')
+def getsmart(request):
+    return render(request, 'getsmart.html')
 
 class BoardListView(ListView):
     model = Board
