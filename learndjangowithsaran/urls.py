@@ -39,6 +39,6 @@ urlpatterns = [
     url(r'^settings/password/done/$', auth_views.PasswordChangeDoneView.as_view(template_name='password_change_done.html'),
         name='password_change_done'),
     url(r'^author/$', views.author, name='author'),
-    url(r'^getsmart/$', views.getsmart, name='getsmart'),
+    url(r'^codesmart/$', views.codesmart, name='codesmart'),
 
 ]

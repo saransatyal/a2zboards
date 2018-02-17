@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Get Smart</title>
+  <title>Code Smart</title>
+  <link rel="shortcut icon" href="/static/img/favicon.png" type="image/x-icon">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,13 +18,18 @@
  background-color: #f1f1f1;
   }
 
+.navbar-brand
+{
+  height: 55px;
+  width: 100px;
+}
   .menu
   {
      font-size: 14px !important;
      font-family: "Segoe UI",Arial,sans-serif;
-     line-height: 1;
+     line-height: 1.5px;
      text-align: center;
-       color: #fff;
+      color: #fff !important;
   }
   .masthead {
     text-align: center;
@@ -42,10 +48,10 @@
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       margin-bottom: 20px;
-      border-radius: 0;
+      height: 53px;
       background-color: Black;
-      color: #fff;
-      font-weight: bold;;
+      color: #fff !important;
+      font-weight: bold;
     }
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content
@@ -99,11 +105,15 @@
       }
       .row.content {height:auto;}
     }
+    ul.nav li:active
+    {
 
+    color: white;
+    }
     ul.nav li:hover
     {
 
-      background-color: #222;
+      background-color: #333;
     }
 
 
@@ -218,7 +228,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#" >GETSMART</a>
+    <a href=""> <img button class="navbar-brand img-responsive" style="margin: 0 auto;" src="/static/img/logo.png" /></a>
     </div>
     <div class="collapse navbar-collapse menu" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -238,10 +248,10 @@
 <div class="container-fluid masthead">
       <h1 itemprop="name" content="">
         <a href="/" class="logo">
-          Get Smart
+          Code Smart
         </a>
       </h1>
-      <h5>Let us learn Web Developing using Python and Django</h5>
+      <h5>Let us learn Web Development together!</h5>
   <img class="img-responsive" style="margin: 0 auto;" src="/static/img/ad.png" />
 </div>
 <audio controls style="display: table;margin: 0 auto;">
@@ -254,14 +264,13 @@ Your browser does not support the audio element.
   <div class="row content">
 <br>
       <div class="col-sm-8  middlebar">
-      <h4 class="well">GETSMART POST #1</h4>
+      <h4 class="well logo">CODESMART POST #1</h4>
       <h4>  Hey there , Hope you are doing great</h4>
-      <img class="img-responsive" style="margin: 0 auto;" src="/static/img/content.png" />
+      <img class="img-responsive" style="margin: 0 auto;" src="/static/img/maincontent.png" />
 <br>
-      <p>In this section, we will discuss about new concepts of Web development.
-    I do not posses an industrial experience in hand in developing field and to be honest I am just a learner, however I will make sure to share
-    with you every bit of programming I know. My focus will be on Python/Django/Flask/HTML/CSS/Bootstrap/Java Script/Jquery.
-    If you have any suggestions , please feel free to dm me.
+      <p>In this section, we will discuss concepts of Web development. I do not posses an industrial experience in hand in developing field and to be honest I am just a learner, however I will make sure to share
+    with you every bit of programming I know. My focus will be on Python/Django/Flask/HTML/CSS/Bootstrap/JavaScript/Jquery.
+    If you have any suggestions, please feel free to dm me.
     <hr>
 
       <a href=" "  >Read more..</a>
@@ -278,14 +287,14 @@ Your browser does not support the audio element.
 
     <div class="col-sm-2 leftsidenav text-center">
 
-<p class="name"><strong>ABOUT BLOGGER</strong></p>
+<p class="name logo"><strong>ABOUT BLOGGER</strong></p>
     <div class="post-thumb">
     <img class="img-responsive" src="/static/img/profile.jpg" /></div>
 
     <div class="post-content">
 
       <p>
-    Hey there , my name is <strong>Saran Satyal</strong> , currently living at Kathmandu. I am passionate about web development using Python/Django. I spend most of my time learning Python , Django , Flask , HTML , CSS , Bootstrap , Java Script , Jquery. To be continued..
+    Hey there , my name is <strong>Saran Satyal</strong> , currently living at Kathmandu. I am passionate about web development. I spend most of my time learning Python, Django, Flask, HTML, CSS, Bootstrap, JavaScript, Jquery.
 <a href=" " rel="author"> </a>
     </p>
 </div>
