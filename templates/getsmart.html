@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
   <style>
 
 /* Padding body to implement fixed nav bar */
@@ -20,8 +22,8 @@
      font-size: 14px !important;
      font-family: "Segoe UI",Arial,sans-serif;
      line-height: 1;
-     color: white;
      text-align: center;
+       color: #fff;
   }
   .masthead {
     text-align: center;
@@ -43,7 +45,8 @@
       margin-bottom: 20px;
       border-radius: 0;
       background-color: Black;
-      color: white;
+      color: #fff;
+      font-weight: bold;;
     }
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content
@@ -85,11 +88,7 @@
 {background-color: #fff;
 }
     /* Set black background color, white text and some padding */
-    footer {
-      background-color: #555;
-      color: white;
-      padding: 15px;
-    }
+
 
 
     /* On small screens, set height to 'auto' for sidenav and grid */
@@ -114,6 +113,96 @@
     width: 200px;
     border-radius: 100px;
     margin: 0 auto;
+}
+
+.footer-bottom {
+    background-color: Black;
+    min-height: 30px;
+    width: 100%;
+      padding: 15px 0;
+        position: relative;
+
+}
+.push {
+  height: 100px;
+}
+
+
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+}
+.design {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: right;
+}
+.design a {
+    color: #fff;
+}
+
+/*
+    Social
+*/
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+  .list1
+  {
+    color: Black;
+  }
+
+.list1 tr:hover  {
+
+-webkit-transform: scale(1);
+-moz-transform: scale(1);
+-o-transform: scale(1.1);
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
+}
+.list1 tr   {
+
+-webkit-transform: scale(1);
+-moz-transform: scale(0.9);
+-o-transform: scale(1.1);
+-webkit-transition-duration: 0.5s;
+-moz-transition-duration: 0.5s;
+-o-transition-duration: 0.5s;
 }
 
   </style>
@@ -149,7 +238,7 @@
 <div class="container-fluid masthead">
       <h1 itemprop="name" content="">
         <a href="/" class="logo">
-          Get Smart
+          Get Smart With Saran
         </a>
       </h1>
       <h5>Let us learn Web Developing using Python and Django</h5>
@@ -158,22 +247,27 @@
 
 <div class="container ">
   <div class="row content">
-
+<br>
       <div class="col-sm-8  middlebar">
-      <h1>Welcome</h1>
-      <p>This will be the main content of the website...</p>
-      <p>  Hey there , my name is Saran Satyal ,currently living at Kathmandu. I consider myself as a full-stack Web Application Developer even though
-    I do not posses an industrial experience in hand in developing field. I have MS degree from Lovely Professional
-    University , India. I am very passionate about web development using Python/Django. I spend most of my time learning
-    Python , Django , Flask , HTML , CSS , Bootstrap , Java Script , Jquery and practically implementing ideas on different projects.</p>
-      <hr>
-      <p>This will be the main content of the website..</p>
-      <p>  Hey there , my name is Saran Satyal , currently living at Kathmandu. I consider myself as a full-stack Web Application Developer even though
-    I do not posses an industrial experience in hand in developing field. I have MS degree from Lovely Professional
-    University , India. I am very passionate about web development using Python/Django. I spend most of my time learning
-    Python , Django , Flask , HTML , CSS , Bootstrap , Java Script , Jquery and practically implementing ideas on different projects.</p>
+      <h4 class="well">GETSMART POST #1</h4>
+      <h4>  Hey there , Hope you are doing great</h4>
+      <img class="img-responsive" style="margin: 0 auto;" src="/static/img/content.png" />
+<br>
+      <p>In this section, we will discuss about new concepts of Web development.
+    I do not posses an industrial experience in hand in developing field and to be honest I am just a learner, however I will make sure to share
+    with you every bit of programming I know. My focus will be on Python/Django/Flask/HTML/CSS/Bootstrap/Java Script/Jquery.
+    If you have any suggestions , please feel free to dm me.
+    <hr>
 
-      <p>To be continued....</p>
+      <a href=" "  >Read more..</a>
+      <hr>
+        <div>
+                    <a href=" "><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+                    <a href=" "><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+                    <a href=" "><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+                    <a href=" "><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+
+        </div>
       <hr>
     </div>
 
@@ -191,6 +285,16 @@
     </p>
 </div>
 <a href=" "  >Read more..</a>
+<hr>
+
+  <div>
+              <a href=" "><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+              <a href=" "><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+              <a href=" "><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+              <a href=" "><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+
+  </div>
+
 <br>
 
 
@@ -198,9 +302,41 @@
 </div>
 </div>
 
-<footer class="container-fluid text-center">
-  <p>Footer Text</p>
-</footer>
+<div class="footer-bottom">
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+      <div class="copyright">
+
+        © 2018, Saran, All rights reserved
+      </div>
+
+    </div>
+
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+
+      <div class="design">
+
+         <a href="#">   </a>   <a target="_blank" href=" ">Web Design & Development by Saran Satyal</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <div  >
+              <a href=" "><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+              <a href=" "><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a>
+              <a href=" "><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a>
+              <a href=" "><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+
+  </div>
+</div>
+</div>
 
 </body>
 </html>
